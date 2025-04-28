@@ -1,0 +1,236 @@
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;   
+}
+
+body{
+    background-color: #2a2a2a;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #B2BEBF;
+    background-color: #BD2A2E;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+
+}
+/*  estilo cabeçalho */
+
+.header {
+    padding: 40px 4%;;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #B2BEBF;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    margin-top: 17px;
+}
+
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+
+header nav ul{
+    list-style-type: none;
+    transform: scale(1.2);
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto; 
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px;
+}
+
+/* estilo topo */
+
+section.topo-site{
+    padding: 40px 4%;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1 {
+    color: #B2BEBF;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+#logo{
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+    border-radius: 300px;
+}
+
+.topo-site h1{
+    color: #B2BEBF;
+    margin-top: 200px;
+}
+
+.topo-site .txt-topo p{
+    color: #B2BEBF;
+    margin: 10px 0;
+}
+
+.txt-topo .btn-contato{
+    text-align: right;
+    margin-top: 110px;
+}
+
+.topo-site .img-topo img{
+    position: relative;
+    animation: voante 2s ease-in-out infinite alternate;
+
+}
+
+
+
+
+.sobremim .topo-site .txt-topo {
+    margin-top: -110px; 
+}
+
+.sobremim .topo-site .img-topo img {
+    margin-top: -150px; 
+}
+
+.logo {
+    position: relative;
+    z-index: 10; /* garante que a logo esteja acima de outros elementos */
+}
+
+.competencias .topo-site .txt-topo {
+    margin-top: -200px;
+}
+
+.competencias .topo-site .txt-topo img {
+    margin-top: -1000px;
+}
+
+body.competencias #logo {
+    margin-top: -20px !important;
+}
+
+body.competencias .txt-topo .btn-contato {
+    margin-top: -100px; 
+    margin-right: -230px;
+}
+
+body.competencias .topo-site h1 {
+    margin-left: -550px; 
+}
+
+body.competencias .topo-site .txt-topo p {
+    margin-left: -350px; 
+}
+body.competencias .topo-site h1 {
+    margin-bottom: 35px; 
+}
+
+
+/* Estilos específicos para a página de competências */
+body.competencias section.topo-site .flex {
+    display: block; 
+    text-align: center; 
+}
+
+body.competencias .topo-site h1 {
+    color: #B2BEBF;
+    font-size: 35px;
+    line-height: 0px;
+    margin-bottom: 70px; 
+    margin-left: 0; 
+}
+
+body.competencias .caixacompetencias {
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    margin-bottom: 0px; 
+}
+
+body.competencias .coluna1,
+body.competencias .coluna2 {
+    flex: 1; 
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 30px; 
+    text-align: left; 
+}
+
+body.competencias .coluna1 h1,
+body.competencias .coluna2 h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #B2BEBF; 
+    margin-bottom: 15px;
+}
+
+body.competencias .coluna1 p,
+body.competencias .coluna2 p {
+    color: #B2BEBF; 
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-weight: normal; 
+    font-style: normal;
+}
+
+body.competencias #logo {
+    margin-top: 20px !important; 
+}
+
+body.competencias .topo-site .txt-topo img {
+    display: none; 
+}
+
+body.competencias .topo-site .txt-topo p {
+    margin-left: 0; 
+}
+
+body.competencias section.topo-site {
+    padding-top: 90px; 
+    padding-bottom: 100px; 
+}
+
+body.competencias section.topo-site {
+    padding-top: -100px; 
+}
